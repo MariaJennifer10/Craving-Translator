@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Craving-Translator/static/css/main.d8a321be.chunk.css",
+    "main.js": "/Craving-Translator/static/js/main.48eaa223.chunk.js",
+    "main.js.map": "/Craving-Translator/static/js/main.48eaa223.chunk.js.map",
+    "runtime-main.js": "/Craving-Translator/static/js/runtime-main.23f3951c.js",
+    "runtime-main.js.map": "/Craving-Translator/static/js/runtime-main.23f3951c.js.map",
+    "static/js/2.6949fafe.chunk.js": "/Craving-Translator/static/js/2.6949fafe.chunk.js",
+    "static/js/2.6949fafe.chunk.js.map": "/Craving-Translator/static/js/2.6949fafe.chunk.js.map",
+    "index.html": "/Craving-Translator/index.html",
+    "precache-manifest.a4d938de46a6bbbdd3336efc11aa4fc5.js": "/Craving-Translator/precache-manifest.a4d938de46a6bbbdd3336efc11aa4fc5.js",
+    "service-worker.js": "/Craving-Translator/service-worker.js",
+    "static/css/main.d8a321be.chunk.css.map": "/Craving-Translator/static/css/main.d8a321be.chunk.css.map",
+    "static/js/2.6949fafe.chunk.js.LICENSE.txt": "/Craving-Translator/static/js/2.6949fafe.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23f3951c.js",
+    "static/js/2.6949fafe.chunk.js",
+    "static/css/main.d8a321be.chunk.css",
+    "static/js/main.48eaa223.chunk.js"
+  ]
+}

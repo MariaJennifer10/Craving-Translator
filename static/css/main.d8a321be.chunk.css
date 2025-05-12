@@ -1,0 +1,2 @@
+@tailwind base;@tailwind components;@tailwind utilities;body{background-color:pink;font-family:"Arial",sans-serif}.card{@apply bg-white rounded-lg shadow-md p-6}.btn{@apply bg-pink-300 text-white rounded-full px-4 py-2 hover:bg-pink-400}
+/*# sourceMappingURL=main.d8a321be.chunk.css.map */
