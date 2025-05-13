@@ -3,16 +3,33 @@ import axios from 'axios';
 
 const FoodDetails = ({ food }) => {
   const [details, setDetails] = useState(null);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     if (food) {
-      axios.get(`http://localhost:5000/api/foods/${encodeURIComponent(food)}`)
-        .then(res => setDetails(res.data))
-        .catch(err => console.error('Error fetching food details:', err));
+      setDetails(null); // Reset details when food changes
+      setError(null); // Reset error
+      axios
+        .get(`${process.env.REACT_APP_API_URL}/api/foods/${encodeURIComponent(food)}`)
+        .then((res) => setDetails(res.data))
+        .catch((err) => {
+          console.error('Error fetching food details:', err);
+          setError('Failed to load food details. Please try again.');
+        });
     }
   }, [food]);
 
-  if (!food || !details) return null;
+  if (!food) return null;
+
+  if (error) {
+    return (
+      <div className="card max-w-lg mt-6">
+        <p className="text-red-500">{error}</p>
+      </div>
+    );
+  }
+
+  if (!details) return null;
 
   return (
     <div className="card max-w-lg mt-6">
