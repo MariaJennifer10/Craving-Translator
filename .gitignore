@@ -7,7 +7,7 @@ yarn-error.log*
 # Build outputs
 frontend/build/
 backend/.env
+frontend/.env
 
 # Miscellaneous
 .DS_Store
-*.log
